@@ -10,7 +10,6 @@
     "files": [
         "README.md",
         "board.json",
-        "board.svg",
         "config.ts",
         "device.d.ts"
     ],
