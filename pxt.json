@@ -1,0 +1,38 @@
+{
+    "name": "board",
+    "description": "Support for MSR Jacdac IoT 48 (ESP32-S2)",
+    "dependencies": {
+        "core---esp32s2": "*",
+        "settings---esp32": "*",
+        "wifi---esp32": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "README.md",
+        "board.json",
+        "board.svg",
+        "config.ts",
+        "device.d.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "4.0.11",
+        "pxt": "7.3.4",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "core": true,
+    "compileServiceVariant": "esp32s2",
+    "weight": 1010,
+    "features": [
+        "pinled",
+        "jacdac"
+    ],
+    "icon": "/static/libs/jacdac-iot-s2.jpg"
+}
