@@ -1,5 +1,6 @@
 {
     "name": "board",
+    "version": "0.0.1",
     "description": "Support for MSR Jacdac IoT 48 (ESP32-S2)",
     "dependencies": {
         "core---esp32s2": "*",
